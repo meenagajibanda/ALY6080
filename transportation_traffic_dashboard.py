@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load dataset
-df = pd.read_csv("your_cleaned_ny_data.csv")  # Replace with your actual cleaned dataset path
+df = pd.read_csv("cleaned_foot_traffic_smallest.csv")  # Replace with your actual cleaned dataset path
 
 # Only include transportation hubs
 transportation_categories = [
