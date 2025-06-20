@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 # Load data
-df = pd.read_csv('C:/Users/meena/Downloads/cleaned_foot_traffic1.csv')  # Replace with your actual CSV filename
+df = pd.read_csv('cleaned_foot_traffic_smallest.csv')  # Replace with your actual CSV filename
 
 # Preprocessing
 df = df.dropna(subset=['percentage_difference_normalized', 'avg_weekday_visits', 'avg_weekend_visits', 'top_category'])
